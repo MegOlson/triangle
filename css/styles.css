@@ -1,0 +1,11 @@
+.text {
+  display: none;
+}
+
+.container div {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-left: 50px;
+}

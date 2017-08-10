@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h3>Make a triangle</h3>
+        <p>Please enter the lenght of all 3 sides of the triangle</p>
+      </div>
+      <form>
+        <div>
+          <label for="side1">Side 1:</label>
+          <input type="text" name="side1" class="side1">
+        </div>
+        <div>
+          <label for="side2">Side 2:</label>
+          <input type="text" name="side2" class="side2">
+        </div>
+        <div>
+          <label for="side3">Side 3:</label>
+          <input type="text" name="side3" class="side3">
+        </div>
+        <button type="submit" class="btn">Make a triangle!</button>
+      </form>
+      <div class="text">
+        <h4>This triangle is a <span id="triangle-type"></span> Triangle, because <span id="sides"></span></h4>
+      </div>
+    </div>
+  </body>
+</html>
